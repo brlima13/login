@@ -3,8 +3,8 @@ pipeline {
   environment {
     MAVEN_ARGS=" -e clean install"
     registry = ""
-    dockerContainerName = 'login'
-    dockerImageName = 'login'
+    dockerContainerName = 'login-api'
+    dockerImageName = 'login-api'
   }
   stages {
     stage('Build') {

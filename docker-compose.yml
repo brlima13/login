@@ -5,6 +5,6 @@ services:
     build: .
     ports:
       - '8099:8099'
-    container_name: login
+    container_name: login-api
 
 
